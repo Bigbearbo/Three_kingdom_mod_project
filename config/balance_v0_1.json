@@ -1,0 +1,20 @@
+{
+  "schema_version": "draft-0.1",
+  "note": "Design-only parameters; NOT directly read by Total War: THREE KINGDOMS.",
+  "unit_size_tiers": {
+    "ordinary": 0.5,
+    "skilled": 0.75,
+    "famous": 1.0
+  },
+  "economy": {
+    "upkeep_multiplier": 0.5,
+    "scale_upkeep_with_current_strength": true,
+    "replenishment_fee_fraction_of_full_recruit_price": 1.0
+  },
+  "open_questions": [
+    "Verify per-unit troop count setting and recruitment/retinue restrictions in the installed game.",
+    "Determine how to observe actual replenishment apart from combining or transferring units.",
+    "Verify whether treasury changes from scripts trigger vanilla bankruptcy rules.",
+    "Verify whether AI applies recruit and upkeep rules consistently across difficulties."
+  ]
+}
